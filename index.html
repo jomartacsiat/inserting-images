@@ -5,8 +5,23 @@
   </head>
   <body>
     <!--Paragraph tag-->
-    <h1>Heading1</h1>
-    <h2>Heading2</h2>
+    <h1>Heading1: List of colors</h1>
+
+    <ul>
+      <li><a href="#Primary">PRIMARY</a></li>
+      <li><a href="#secondary">SECONDARY</a></li>
+    </ul>
+
+    <section>
+      <h2 id="Primary">PRIMARY</h2>
+      <p>red, yellow and blue are the primary colors.</p>
+    </section>
+
+    <section>
+      <h2 id="secondary">SECONDARY</h2>
+      <p>violet, orange and green are the secondary colors.</p>
+    </section>
+
     <h3>Heading3</h3>
     <h4>Heading4</h4>
     <h5>Heading5</h5>
@@ -16,12 +31,34 @@
     <p>* This paragraph-2</p>
     <!--Heading tag-->
 
+    <figure>
+      <!--inserting image with caption-->
+      <img
+        src="Images/milkyway.jpg"
+        alt="milkyway"
+        width="600px"
+        height="400px"
+      />
+      <figcaption>
+        An illustration shows the spiral shape of the Milky Way galaxy.
+        PHOTOGRAPH BY ALEXANDR MITIUC, DREAMSTIME
+      </figcaption>
+    </figure>
+
     <!--insert the image-->
     <img src="Images/img 1.jpg" alt="monitor" width="300px" height="400px" />
     <br />
     <img src="Images/img 2.jpg" alt="mobile" width="500px" />
     <br />
     <img src="Images/img 3.jpg" alt="phone and monitor" width="400px" />
+    <br />
+    <a href="https://www.pexels.com/photo/animals-sweet-cat-kitty-57416/">
+      <img
+        src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?w=640"
+        alt="Red cat"
+        width="400"
+      />
+    </a>
 
     <!--creating list-->
     <ol>
@@ -30,7 +67,7 @@
       <li>tea</li>
       <li>milk</li>
     </ol>
-    <!--creating an ordered list-->
+    <!--creating unordered list-->
     <ul>
       types of drinks
       <li>cofee</li>
@@ -38,13 +75,27 @@
       <li>milk</li>
     </ul>
 
-    <!--inserting hyperlink-->
+    <!--inserting hyperlink to an external resource, opens in the current tab-->
     <p>
       <a href="https://www.youtube.com">youtube</a>
     </p>
+    <!--Link to an external resource, opens in a new tab-->
     <p>
       <a href="http://google.com" target="_blank" title="Google Search Engine">
         Google.com
+      </a>
+    </p>
+    <p>
+      <!-- Link to an external resource, opens in the current tab -->
+      <a href="https://www.facebook.com/">Facebook</a>
+
+      <!-- Link to an external resource, opens in a new tab -->
+      <a
+        href="https://www.facebook.com/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        Facebook
       </a>
     </p>
     <p>
@@ -55,6 +106,6 @@
     </p>
 
     <!--creating button-->
-    <button type="button">click me</button>
+    <button type="button">Iam clickable</button>
   </body>
 </html>
